@@ -5,7 +5,6 @@ defmodule TdDf.Templates do
 
   import Ecto.Query, warn: false
   @repo Application.get_env(:td_df, :repo)
-  @test_string Application.get_env(:td_df, :test_string)
 
   alias Ecto.Changeset
   alias TdDf.Templates.Template
@@ -15,10 +14,6 @@ defmodule TdDf.Templates do
   @variable_list "variable_list"
   @variable_map_list "variable_map_list"
 
-
-  def print_repo, do: IO.inspect @repo, label: "print_repo"
-
-  def print_test_string, do: IO.inspect @test_string, label: "print_test_string"
 
   @doc """
   Returns the list of templates.
