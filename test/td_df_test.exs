@@ -5,4 +5,9 @@ defmodule TdDfTest do
   test "greets the world" do
     assert TdDf.hello() == :world
   end
+
+
+  test "imports TdDf.Templates" do
+    assert TdDf.hello() == :world
+  end
 end

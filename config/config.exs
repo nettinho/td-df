@@ -30,3 +30,5 @@ use Mix.Config
 #     import_config "#{Mix.env()}.exs"
 
 config :td_df, repo: TdDf.Repo
+config :td_df, test_string: "Test"
+
